@@ -10,6 +10,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
+One thing to note before looking at the solution: Instead of using the different colour bar to show which day it currently is, I decided to use this to show which day had the highest amount of spending as I thought this was a more useful function.
+
 ## Built with
 
 - Semantic HTML5 markup
