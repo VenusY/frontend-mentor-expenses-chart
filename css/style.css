@@ -210,6 +210,12 @@ main {
     font-size: 18px;
   }
   /* Styling */
+  .balance {
+    border-radius: 20px;
+  }
+  .spending {
+    border-radius: 20px;
+  }
   .spending__bar-chart {
     border-bottom: 2px solid #f2e8df;
   }
