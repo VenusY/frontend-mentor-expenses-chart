@@ -10,4 +10,23 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
 
+## Built with
 
+- Semantic HTML5 markup
+- SCSS
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+
+## What I learned
+
+**Importing local JSON files**
+
+Local JSON files can be imported by adding `type="module"` to the `<script>` tag, and then asserting that the type is JSON in the JS file.
+
+```html
+<script type="module" src="js/index.js"></script>
+```
+```js
+import spendingData from "./data.json" assert {type: "json"};
+```
