@@ -1,0 +1,94 @@
+@use "../util/functions" as f;
+
+@media screen and (min-width: 590px) {
+  /* Typography */
+
+  .balance {
+    &__heading {
+      font-size: f.rem(18);
+    }
+
+    &__amount {
+      font-size: f.rem(32);
+    }
+  }
+
+  .spending {
+    &__main-heading {
+      font-size: f.rem(32);
+    }
+
+    &__daily-amount {
+      font-size: 18px;
+    }
+
+    &__day {
+      font-size: 15px;
+    }
+
+    &__subheading {
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    &__amount {
+      font-size: 48px;
+    }
+
+    &__percentage-difference {
+      font-size: 18px;
+    }
+  }
+
+  /* Styling */
+
+  .spending {
+    &__bar-chart {
+      border-bottom: 2px solid #f2e8df;
+    }
+  }
+
+  /* Layout */
+
+  main {
+    max-width: none;
+    width: 540px;
+    padding: 0;
+  }
+
+  .balance {
+    padding: 25px 32px 23px 32px;
+    margin-bottom: 24px;
+
+    &__heading {
+      margin-bottom: f.rem(2);
+    }
+
+    &__logo {
+      height: auto;
+      margin-right: 6px;
+    }
+  }
+
+  .spending {
+    padding: 30px 40px 45px 40px;
+
+    &__bar-chart {
+      height: 274px;
+      padding: 64px 0 30px 0;
+      margin-bottom: f.rem(35);
+    }
+
+    &__bar {
+      margin-bottom: 6px;
+    }
+
+    &__daily-amount {
+      padding: 6px 8px;
+    }
+
+    &__text-container {
+      height: f.rem(80);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.spending {
+  &__bar {
+    transition: background 0.1s;
+
+    &:hover {
+      background: #ff9b87;
+      cursor: pointer;
+    }
+
+    &:hover > .spending__daily-amount {
+      opacity: 1;
+      transform: translateY(-10px);
+    }
+
+    &--highest:hover {
+      background: #b4dfe5;
+    }
+  }
+
+  &__daily-amount {
+    transition: opacity 0.1s, transform 0.1s;
+  }
+}
