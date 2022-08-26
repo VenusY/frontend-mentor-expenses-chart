@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg" />
+
+    <title>Expenses chart component</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="heading--hidden">Expenses chart component</h1>
+
+      <div class="balance">
+        <div class="balance__text-container">
+          <h2 class="balance__heading">My balance</h2>
+          <p class="balance__amount">$921.48</p>
+        </div>
+
+        <img src="images/logo.svg" alt="Logo" class="balance__logo" />
+      </div>
+
+      <div class="spending">
+        <h2 class="spending__main-heading">Spending - Last 7 days</h2>
+
+        <div class="spending__bar-chart">
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Mon</p>
+          </div>
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Tue</p>
+          </div>
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Wed</p>
+          </div>
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Thu</p>
+          </div>
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Fri</p>
+          </div>
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Sat</p>
+          </div>
+          <div class="spending__bar-container">
+            <div class="spending__bar">
+              <p class="spending__daily-amount"></p>
+            </div>
+            <p class="spending__day">Sun</p>
+          </div>
+        </div>
+
+        <div class="spending__text-container">
+          <div class="spending__total-container">
+            <h2 class="spending__subheading">Total this month</h2>
+            <p class="spending__amount">$478.33</p>
+          </div>
+
+          <div class="spending__percentage-difference">
+            <p class="spending__percentage">+2.4%</p>
+            <p class="spending__time-frame">from last month</p>
+          </div>
+        </div>
+      </div>
+      <!-- .spending -->
+    </main>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
