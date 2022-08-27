@@ -67,8 +67,12 @@
   }
 
   .balance {
-    padding: 26px 32px 22px 32px;
+    padding: 20px 32px 20px 32px;
     margin-bottom: 24px;
+
+    &__text-container {
+      margin: 6px 0 2px 0;
+    }
 
     &__heading {
       margin-bottom: f.rem(2);

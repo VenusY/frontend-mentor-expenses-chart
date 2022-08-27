@@ -229,8 +229,11 @@ main {
     padding: 0;
   }
   .balance {
-    padding: 26px 32px 22px 32px;
+    padding: 20px 32px 20px 32px;
     margin-bottom: 24px;
+  }
+  .balance__text-container {
+    margin: 6px 0 2px 0;
   }
   .balance__heading {
     margin-bottom: 0.125rem;
