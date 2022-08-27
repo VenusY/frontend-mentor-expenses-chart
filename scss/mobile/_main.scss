@@ -138,7 +138,7 @@ main {
     justify-content: space-between;
     height: 250px;
     padding: 48px 0 24px 0;
-    margin-bottom: f.rem(24);
+    margin-bottom: 24px;
   }
 
   &__bar-container {
@@ -170,7 +170,7 @@ main {
   &__text-container {
     display: flex;
     justify-content: space-between;
-    height: f.rem(65);
+    height: 65px;
   }
 
   &__percentage-difference {

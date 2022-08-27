@@ -38,6 +38,10 @@
     &__percentage-difference {
       font-size: 18px;
     }
+
+    &__percentage {
+      line-height: 1.1;
+    }
   }
 
   /* Styling */
@@ -82,7 +86,7 @@
     &__bar-chart {
       height: 274px;
       padding: 64px 0 30px 0;
-      margin-bottom: f.rem(35);
+      margin-bottom: 35px;
     }
 
     &__bar {
@@ -94,7 +98,7 @@
     }
 
     &__text-container {
-      height: f.rem(80);
+      height: 78px;
     }
   }
 }

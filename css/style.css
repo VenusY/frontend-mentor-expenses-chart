@@ -145,7 +145,7 @@ main {
   justify-content: space-between;
   height: 250px;
   padding: 48px 0 24px 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 .spending__bar-container {
   display: flex;
@@ -176,7 +176,7 @@ main {
 .spending__text-container {
   display: flex;
   justify-content: space-between;
-  height: 4.0625rem;
+  height: 65px;
 }
 .spending__percentage-difference {
   margin-top: auto;
@@ -208,6 +208,9 @@ main {
   }
   .spending__percentage-difference {
     font-size: 18px;
+  }
+  .spending__percentage {
+    line-height: 1.1;
   }
   /* Styling */
   .balance {
@@ -242,7 +245,7 @@ main {
   .spending__bar-chart {
     height: 274px;
     padding: 64px 0 30px 0;
-    margin-bottom: 2.1875rem;
+    margin-bottom: 35px;
   }
   .spending__bar {
     margin-bottom: 6px;
@@ -251,6 +254,6 @@ main {
     padding: 6px 8px;
   }
   .spending__text-container {
-    height: 5rem;
+    height: 78px;
   }
 }/*# sourceMappingURL=style.css.map */
